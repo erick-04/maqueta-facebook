@@ -1,0 +1,36 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 98vh;
+}
+#colum1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#colum2 {
+    background-color: blue;
+    width: 50%; display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#image{
+    width: 70%;
+}
+img{
+    width: 300px;
+}
+#text-logo{
+   font-size: 24px; 
+   margin-top: -20px;
+   margin-left: 35px;
+}
+#card-form{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+}
