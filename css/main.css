@@ -1,3 +1,6 @@
+body{
+    background: #f0f2f5;
+}
 #container {
     display: flex;
     flex-direction: row;
@@ -10,7 +13,6 @@
     justify-content: center;
 }
 #colum2 {
-    background-color: blue;
     width: 50%; display: flex;
     align-items: center;
     justify-content: center;
@@ -31,6 +33,82 @@ img{
 }
 #card-form{
     height: 350px;
-    width: 350px;
+    width: 395px;
     background-color: white;
+    border-radius: 10px;
+}
+#formulario1{
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+input{
+    display:flex;
+    height: 48px;
+    width: 355px;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #dddfe2;
+    font-size: 17px;
+}
+#formulario2{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+#button-entrar{
+    margin-top: 17px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #1877f2;
+    border-color: #4267b2;
+    height: 50px;
+    width: 365px;
+    border-radius: 6px;
+    border: 1px solid;
+    cursor: pointer;
+
+}
+#entrar-button{
+    display: flex;
+    justify-content: center;
+}
+#button-entrar:hover{
+    background-color:  #4267b2;
+}
+#text-form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500; 
+    cursor: pointer;
+    font-family: inherit;
+    
+}
+#text-form:hover{
+    text-decoration: underline;
+}
+#cuenta-button{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid;
+    border-color: #dddfe2;
+}
+#button-crearcuenta{
+    height: 50px;
+    width: 190px;
+    font-size: 16px;
+    color: white;
+    font-weight:bolder;
+    background-color: rgb(67, 212, 67);
+    border-radius: 6px;
+    border: 1px solid;
+}
+#button-crearcuenta:hover{
+    background-color: rgb(52, 201, 52);
 }
